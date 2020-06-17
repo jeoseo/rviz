@@ -82,6 +82,8 @@ RobotJoint::RobotJoint(Robot* robot, const urdf::JointConstSharedPtr& joint)
     type = "continuous";
   else if (joint->type == urdf::Joint::PRISMATIC)
     type = "prismatic";
+  else if (joint->type == urdf::Joint::CONTINUUM)
+      type = "continuum";
   else if (joint->type == urdf::Joint::FLOATING)
     type = "floating";
   else if (joint->type == urdf::Joint::PLANAR)

@@ -22,8 +22,8 @@
   <build_depend>eigen</build_depend>
   <build_depend>qtbase5-dev</build_depend>
   <build_depend>libqt5-opengl-dev</build_depend>
-  <build_depend>liburdfdom-dev</build_depend>
-  <build_depend>liburdfdom-headers-dev</build_depend>
+  <build_depend>urdfdom</build_depend>
+  <build_depend>urdfdom_headers</build_depend>
   <build_depend>message_generation</build_depend>
 
   <depend>assimp-dev</depend>

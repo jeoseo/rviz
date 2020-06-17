@@ -23,7 +23,7 @@ find_package(Boost REQUIRED
   thread
 )
 
-find_package(urdfdom_headers REQUIRED)
+find_package(urdfdom_headers 1.0.5 REQUIRED PATHS "/home/jeoseo/ros_ws1" )
 
 find_package(PkgConfig REQUIRED)
 
